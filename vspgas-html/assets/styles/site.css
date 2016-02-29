@@ -113,6 +113,15 @@ hr {
     margin-top: 20px;
     margin-left: 52px;
 }
+#header.header-sroll {
+        -webkit-box-shadow: 0 3px 5px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+        -moz-box-shadow:    0 3px 5px #ccc;  /* Firefox 3.5 - 3.6 */
+        box-shadow:         0 3px 5px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+        position: fixed;
+    }
+    #header.header-sroll .header-top {
+        display: none;
+    }
 #header .header-top
 {
     background: url(../images/header-bg.jpg) no-repeat 695px bottom;
@@ -170,7 +179,7 @@ hr {
     font-size: 15px;
     font-weight: 900;
     line-height: 45px;
-    padding: 0 9px;
+    padding: 0 7px;
     text-transform: uppercase;
     text-align: center;
         -webkit-transition: all .2s;
@@ -272,6 +281,88 @@ hr {
     position: relative;
     width: 100%;
     z-index: 1;
+}
+/*====service====*/
+.wrapper-service {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 33px;
+}
+.service-box {
+    color: #282828;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 300;
+    overflow: hidden;
+    padding: 10px 20px;
+    width: 50%;
+    float: left;
+}
+.service-box .service-img {
+    display: block;
+    float: left;
+    width: 242px;
+}
+.service-box .service-img img {
+    display: block;
+    width: 100%;
+}
+.service-box .service-content {
+    overflow: hidden;
+    padding-left: 25px;
+}
+.service-box .service-name a {
+    color: #78ae1d;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.service-box .service-name strong {
+    font-size: 36px;
+    font-weight: 800;
+}
+.service-box .service-name span {
+    font-weight: normal;
+    display: block;
+}
+.service-box .description {
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+    color: #484848;
+    font-weight: 500;
+}
+/*===============*/
+#sroltop
+{
+    bottom: 30px;
+    right: 0;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 999;
+}
+#sroltop a
+{
+    background-color: #e9121b;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    height: 100%;
+    text-align: center;
+    line-height: 44px;
+    width: 100%;
+}
+#sroltop a
+{
+    display: block;
 }
 /*======================================================FOOTER===========================================*/
 #wrapper #footer

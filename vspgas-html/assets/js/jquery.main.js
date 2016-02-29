@@ -316,6 +316,22 @@ function myListTb() {
             layoutMode: 'fitRows'
         });
     }
+    if ($('.wrapper-service').size() > 0) {
+        $('.wrapper-service').textHeight({
+            activetit: true,
+            listcss: [{ cssname: ".service-box"}],
+            wpointb: true,
+            //widthpont: 479,
+            desbool: false,
+            listpos: [{ cssnamepos: ".desription", cssheightnum: "5"}],
+            tbrow: true,
+            csstr: ".element-item",
+            max: true
+        }).isotope({
+            itemSelector: '.element-item',
+            layoutMode: 'fitRows'
+        });
+    }
     if ($('.tb-newsb').size() > 0) {
         $('.tb-newsb').textHeight({
             activetit: true,
