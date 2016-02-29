@@ -1,0 +1,194 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/*=====================*/
+#sliderParent {
+    padding: 0 14px;
+}
+#sliderParent .slick-prev, #sliderParent .slick-next {
+    background: url(../images/controls.png) no-repeat left top;
+    border: none;
+    cursor: pointer;
+    display: block;
+    top: 50%;
+    font-size: 0;
+    margin-top: -12px;
+    position: absolute;
+    overflow: hidden;
+    height: 24px;
+    width: 14px;
+}
+#sliderParent .slick-prev {
+    background-position: left top;
+    left: 0;
+}
+#sliderParent .slick-next {
+    background-position: right top;
+    right: 0;
+}
+.control-silder {
+    float: right;
+    vertical-align: top;
+    width: 80px;
+}
+    .control-silder a {
+        background-color: #595959;
+        color: #fff;
+        display: block;
+        float: left;
+        font-size: 24px;
+        height: 37px;
+        line-height: 37px;
+        text-align: center;
+        width: 37px;
+    }
+    .control-silder .next {
+        float: right;
+    }
+    .control-silder a:hover {
+        background-color: #0a4687;
+    }
+/*=============================*/
+#sliderAbout .slick-arrow {
+    background: url(../images/controls2.png) no-repeat left top;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    top: 50%;
+    margin-top: -18px;
+    position: absolute;
+    height: 64px;
+    width: 36px;
+    z-index: 99;
+}
+#sliderAbout .slick-prev {
+    background-position: left top;
+    left: 25px;
+}
+#sliderAbout .slick-next {
+    background-position: right top;
+    right: 27%;
+}
+#sliderAbout .slick-prev:hover {
+    background-position: left bottom;
+}
+#sliderAbout .slick-next:hover {
+    background-position: right bottom;
+}

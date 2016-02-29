@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "vspgas-html", "vspgas-html\", "{4BEC506D-457A-4614-93E4-B17B11C3B388}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/vspgas-html"
+		Debug.AspNetCompiler.PhysicalPath = "vspgas-html\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\vspgas-html\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/vspgas-html"
+		Release.AspNetCompiler.PhysicalPath = "vspgas-html\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\vspgas-html\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "27668"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BEC506D-457A-4614-93E4-B17B11C3B388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEC506D-457A-4614-93E4-B17B11C3B388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,vietnamese'
+        rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,vietnamese'
+        rel='stylesheet' type='text/css' />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <link href="assets/styles/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/styles/nivo-slider.css" rel="stylesheet" type="text/css" />
+    <link href="assets/styles/slick.css" rel="stylesheet" />
+    <link href="assets/styles/jquery.bxslider.css" rel="stylesheet" />
+    <link href="assets/styles/site.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <style type="text/css">
+            .corner
+            { 
+                position: relative; behavior: url(PIE.htc); 
+            }
+            .fullbox-img
+            {
+	            -ms-behavior: url(backgroundsize.min.htc);
+	            behavior: url(backgroundsize.min.htc);
+            }
+        </style>
+        <link href="assets/styles/ie7.css" rel="stylesheet" type="text/css" />
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js" type="text/javascript"></script>
+	    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js" type="text/javascript"></script>
+    <![endif]-->
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="assets/js/superfish.js" type="text/javascript"></script>
+    <script src="assets/js/supersubs.js" type="text/javascript"></script>
+    <script src="assets/js/hoverIntent.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="wrapper-in">
+        <!--header-->
+        <div id="header">
+            <div class="header-top container">
+                <div class="header-right">
+                    <div class="languge">
+                        <a href="#">
+                            <img src="assets/images/flag-en.png" alt="" /></a> <a href="#">
+                                <img src="assets/images/flag-vn.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a id="A1" href="~/" runat="server">
+                        <img src="assets/images/logo.png" alt="logo" /></a></div>
+                <div class="nameco">
+                    XÍ NGHIỆP KHAI THÁC CÁC CÔNG TRÌNH KHÍ<strong>"VSP GAS ENTERPRISE"</strong></div>
+            </div>
+            <div class="wrapper-menu">
+                <div class="container">
+                    <ul id="menu">
+                        <li><a id="A2" href="~/" runat="server">Trang chủ</a> </li>
+                        <li><a href="gioi-thieu.aspx">Giới thiệu<span class="menu-down"></span></a></li>
+                        <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span></a>
+                            <ul>
+                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span></a></li>
+                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span></a></li>
+                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span></a></li>
+                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="don-vi-thanh-vien.aspx">Đơn Vị Thành Viên<span class="menu-down"></span></a></li>
+                        <li><a href="tin-tuc-su-kien.aspx">Tin Tức - Sự Kiện<span class="menu-down"></span></a></li>
+                        <li><a href="du-an.aspx">Dự Án<span class="menu-down"></span></a></li>
+                        <li><a href="doi-tac.aspx">Đối Tác - Khách Hàng<span class="menu-down"></span></a></li>
+                        <li><a href="nguon-nhan-luc.aspx">Thông báo<span class="menu-down"></span></a></li>
+                        <li><a href="nguon-nhan-luc.aspx">Liên kết<span class="menu-down"></span></a></li>
+                    </ul>
+                    <div class="clr">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end header-->
+        <hr />
+        <!--main-->
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="wrapParent">
+                <div class="container">
+                    <div id="sliderParent">
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-1.jpg" alt="" /></a></div>
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-2.jpg" alt="" /></a></div>
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-3.jpg" alt="" /></a></div>
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-4.jpg" alt="" /></a></div>
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-5.jpg" alt="" /></a></div>
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-6.jpg" alt="" /></a></div>
+                        <div>
+                            <a href="#" class="parent-box">
+                                <img src="assets/images/parent-i-7.jpg" alt="" /></a></div>
+                    </div>
+                </div>
+            </div>
+        <!--end main-->
+        <hr />
+        <div id="footer">
+            <p style="text-align: center;">
+                Footer</p>
+        </div>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="cphPopup" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--active-->
+    <div id="runScript" runat="server">
+    </div>
+    <script src="assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.panel.mobile.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.bgbox.js" type="text/javascript"></script>
+    <script src="assets/js/slick.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script src="assets/js/jquery.jcarousel.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.main.js" type="text/javascript"></script>
+    </form>
+</body>
+</html>
