@@ -320,9 +320,9 @@ function myListTb() {
         $('.wrapper-service').textHeight({
             activetit: true,
             listcss: [{ cssname: ".service-box"}],
-            wpointb: true,
+            wpointb: false,
             //widthpont: 479,
-            desbool: false,
+            desbool: true,
             listpos: [{ cssnamepos: ".desription", cssheightnum: "5"}],
             tbrow: true,
             csstr: ".element-item",
