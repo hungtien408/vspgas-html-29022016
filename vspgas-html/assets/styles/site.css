@@ -148,7 +148,7 @@ hr {
 }
 /*==========menu========*/
 .wrapper-menu {
-    background-color: #79c830;
+    background: url('../images/bg-menu.png') repeat-x left top;
     left: 0;
     top: 0;
     position: relative;
@@ -165,19 +165,21 @@ hr {
 }
 #menu > li
 {
-    background: url(../images/menu-line.png) repeat-y left top;
+    background: url(../images/menu-line.png) repeat-y right top;
     float: left;
     padding-left: 2px;
     position: relative;
+    height: 45px;
 }
 #menu > li > a
 {
     color: #fff;
     display: block;
-    font-size: 15px;
-    font-weight: 900;
+    font-size: 14px;
+    font-weight: 700;
     line-height: 45px;
-    padding: 0 7px;
+    height: 45px;
+    padding: 0 12px;
     text-transform: uppercase;
     text-align: center;
         -webkit-transition: all .2s;
@@ -185,28 +187,44 @@ hr {
         -o-transition: all .2s;
         transition: all .2s;
         position: relative;
+        margin-top: -5px;
+    line-height: 50px;
+    height: 50px;
 }
-#menu > li:first-child {
+#menu > li:last-child {
     background: none;
 }
-#menu a:hover, #menu a:visited, #menu a:focus {
+#menu a:hover, #menu a:visited, #menu a:focus, #menu li.active a {
     text-decoration: none;
-    background: url('../images/menu-hover.png') no-repeat left top;
+    background-color: #79c830;
 }
 #menu .menu-down {
     display: block;
     top: 100%;
-    left: 50%; 
+    left: 10%; 
     margin-left: -10px;
     position: absolute;
     width:0px;
 	  height:0px;
-	  border-left: 10px solid transparent;
-	  border-right: 10px solid transparent;
-	  border-top: 8px solid #79c830; /* Tam giác phía trên được đổ màu */
+	  border-left: 55px solid transparent;
+	  border-right: 50px solid transparent;
+	  border-top: 30px solid #79c830; /* Tam giác phía trên được đổ màu */
       visibility: hidden;
 }
-#menu > li > a:hover > .menu-down, #menu > li:hover > a > .menu-down, #menu > li.active > a > .menu-down
+#menu .menu-up {
+    display: block;
+    top: 0;
+    left: 100%; 
+    margin-left: 0;
+    position: absolute;
+    width:0px;
+	  height:0px;
+	  border-right: 7px solid transparent;
+	  border-bottom: 5px solid #55901f; /* Tam giác phía trên được đổ màu */
+      visibility: hidden;
+}
+#menu > li > a:hover > .menu-down, #menu > li:hover > a > .menu-down, #menu > li.active > a > .menu-down, 
+#menu > li > a:hover > .menu-up, #menu > li:hover > a > .menu-up, #menu > li.active > a > .menu-up
 {
     visibility: visible;
 }
@@ -238,7 +256,7 @@ hr {
 {
     left: 0;
     top: 100%;
-    padding-top: 8px;
+    padding-top: 30px;
 }
 #menu ul ul
 {
@@ -249,6 +267,9 @@ hr {
 {
     background-color: #79c830;
     
+}
+#menu > li:hover {
+    background: none;
 }
 /*======================================================MAIN=============================================*/
 #mainContent {
@@ -334,6 +355,152 @@ hr {
     color: #484848;
     font-weight: 500;
 }
+/*====button services===*/
+.button-services {
+    background: url("../images/line-1.png") repeat-x left center;
+    margin-bottom: 36px;
+    text-align: center;
+    position: relative;
+}
+.button-services a {
+    background-color: #ff6015;
+    display: inline-block;
+    padding: 0 50px;
+    line-height: 50px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #fff;
+}
+.button-services .bottom-ser {
+    background: url('../images/bottom-services.png') no-repeat center bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+/*====list new====*/
+.wrapper-news {
+    float: left;
+    width: 376px;
+    margin: 0 12px 67px;
+    background-color: #fff;
+    box-shadow: #dcdcdc 2px 4px 5px;
+    -moz-border-radius: 2px 4px 5px; /* Firefox */
+    -webkit-border-radius: 2px 4px 5px; /* Safari and Chrome */
+}
+.news-tblist {
+    margin-bottom: 70px;
+}
+.news-tblist .news-box {
+    border-bottom: solid 1px #d9d9d9;
+    padding: 10px 17px;
+}
+.news-name a {
+    color: #282828;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px 0 5px;
+}
+.news-box{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.news-box .news-img, 
+.news-img img
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0;
+}
+.news-box {
+    color: #484848;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+}
+.news-box:hover .news-name a, .news-name a:hover {
+    text-decoration: none;
+}
+.news-tb .news-box:hover .news-name a, .news-tb .news-name a:hover {
+    color: #ea0000;
+}
+.news-box .desription {
+    overflow: hidden;
+    width: 100%;
+}
+.news-box .author {
+    color: #989898;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
+    margin-top: 10px;
+}
+.news-tit{
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 100%;
+    background: #f5f5f5 url('../images/line-news.png') no-repeat left top;
+}
+.news-tit a {
+    display: block;
+    color: #77b930;
+    text-transform: uppercase;
+    float: left;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 5px;
+    width: 100%;
+}
+.news-tit a:hover, .more-details a:hover {
+    text-decoration: none;
+}
+.list-news {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+}
+.list-news a {
+    color: #629e20;
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 22px;
+    padding-bottom: 2px;
+    position: relative;
+}
+.list-news .fa {
+    display: block;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    left: 4px;
+    top: 0;
+    position: absolute;
+    width: 22px;
+}
+.more-details {
+    overflow: hidden;
+    width: 100%;
+}
+.more-details a {
+    color: #a0a0a0;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 50px;
+    height: 50px;
+    text-transform: uppercase;
+}
 /*===============*/
 #sroltop
 {
@@ -387,4 +554,20 @@ hr {
 #footer p
 {
     margin-bottom: 0;
+    position: relative;
+}
+#footer span
+{
+    float: left;
+    padding: 0 5px;
+}
+#footer .icon-p {
+    display: block;
+    vertical-align: top;
+    left: 0;
+    top: 5px;
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 20px;
 }

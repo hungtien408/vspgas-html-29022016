@@ -28,6 +28,8 @@
                         <p>
                             Hiện nay, xí nghiệp đang quản lý hệ thống các phương tiện kỹ thuật hiện đại, các
                             thiết bị chuyên dụng trong khai thác và vận chuyển dầu khí gồm: 13 giàn cố định,
+                            02 giàn công nghệ trung tâm Hiện nay, xí nghiệp đang quản lý hệ thống các phương tiện kỹ thuật hiện đại, các
+                            thiết bị chuyên dụng trong khai thác và vận chuyển dầu khí gồm: 13 giàn cố định,
                             02 giàn công nghệ trung tâm
                         </p>
                     </div>
@@ -80,6 +82,48 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="button-services"><a href="#">xem tất cả dịch vụ của VSPGAS <span class="fa fa-arrow-down"></span></a><span class="bottom-ser"></span></div>
+        <div class="row news-tblist news-tb">
+            <div class="wrapper-news">
+                <h4 class="news-tit"><a href="#" class="corner">Tin vietsovpetro</a></h4>
+                <div class="news-box">
+                    <h4 class="news-name"><a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
+                    <div class="author">Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
+                    <a href="#" class="news-img"><img src="assets/images/news-i-1.jpg" alt=""/></a>
+                    <div class="desription">Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga </div>
+                    <div class="more-details"><a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a></div>
+                </div>
+                <ul class="list-news">
+                    <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn Thỏ Trắng 02</a></li>                    <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng 02 chào mừng Đại hội XII của Đảng</a></li>
+                </ul>
+            </div>
+            <div class="wrapper-news">
+                <h4 class="news-tit"><a href="#" class="corner">Tin dầu khí</a></h4>
+                <div class="news-box">
+                    <h4 class="news-name"><a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
+                    <div class="author">Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
+                    <a href="#" class="news-img"><img src="assets/images/news-i-2.jpg" alt=""/></a>
+                    <div class="desription">Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga </div>
+                    <div class="more-details"><a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a></div>
+                </div>
+                <ul class="list-news">
+                    <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn Thỏ Trắng 02</a></li>                    <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng 02 chào mừng Đại hội XII của Đảng</a></li>
+                </ul>
+            </div>
+            <div class="wrapper-news">
+                <h4 class="news-tit"><a href="#" class="corner">Nguồn nhân lực</a></h4>
+                <div class="news-box">
+                    <h4 class="news-name"><a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
+                    <div class="author">Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
+                    <a href="#" class="news-img"><img src="assets/images/news-i-3.jpg" alt=""/></a>
+                    <div class="desription">Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga </div>
+                    <div class="more-details"><a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a></div>
+                </div>
+                <ul class="list-news">
+                    <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn Thỏ Trắng 02</a></li>                    <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng 02 chào mừng Đại hội XII của Đảng</a></li>
+                </ul>
             </div>
         </div>
     </div>
