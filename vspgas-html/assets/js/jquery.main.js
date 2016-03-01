@@ -161,7 +161,6 @@ function mymenue() {
 }
 
 function resizemenu() {
-    alert("aaa");
     var countm = $("#menu > li").size();
     $("#menu > li").each(function (e) {
         if (e == countm - 1) {

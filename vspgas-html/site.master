@@ -51,55 +51,74 @@
     <form id="form1" runat="server">
     <div id="wrapper">
         <div id="wrapper-in">
-        <!--header-->
-        <div id="header">
-            <div class="header-top container">
-                <div class="header-right">
-                    <div class="languge">
-                        <a href="#">
-                            <img src="assets/images/flag-en.png" alt="" /></a> <a href="#">
-                                <img src="assets/images/flag-vn.png" alt="" /></a>
+            <!--header-->
+            <div id="header">
+                <div class="header-top container">
+                    <div class="header-right">
+                        <div class="languge">
+                            <a href="#">
+                                <img src="assets/images/flag-en.png" alt="" /></a> <a href="#">
+                                    <img src="assets/images/flag-vn.png" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a id="A1" href="~/" runat="server">
+                            <img src="assets/images/logo.png" alt="logo" /></a></div>
+                    <div class="nameco">
+                        XÍ NGHIỆP KHAI THÁC CÁC CÔNG TRÌNH KHÍ<strong>"VSP GAS ENTERPRISE"</strong></div>
+                </div>
+                <div class="wrapper-menu">
+                    <div class="container">
+                        <ul id="menu">
+                            <li class="active"><a id="A2" href="~/" runat="server">Trang chủ<span class="menu-down"></span><span
+                                class="menu-up"></span></a> </li>
+                            <li><a href="gioi-thieu.aspx">Giới thiệu<span class="menu-down"></span><span class="menu-up"></span></a></li>
+                            <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                class="menu-up"></span></a>
+                                <ul>
+                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                        class="menu-up"></span></a></li>
+                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                        class="menu-up"></span></a></li>
+                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                        class="menu-up"></span></a></li>
+                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                        class="menu-up"></span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="don-vi-thanh-vien.aspx">Đơn Vị Thành Viên<span class="menu-down"></span><span
+                                class="menu-up"></span></a></li>
+                            <li><a href="tin-tuc-su-kien.aspx">Tin Tức - Sự Kiện<span class="menu-down"></span><span
+                                class="menu-up"></span></a></li>
+                            <li><a href="du-an.aspx">Dự Án<span class="menu-down"></span><span class="menu-up"></span></a></li>
+                            <li><a href="doi-tac.aspx">Đối Tác - Khách Hàng<span class="menu-down"></span><span
+                                class="menu-up"></span></a></li>
+                            <li><a href="nguon-nhan-luc.aspx">Thông báo<span class="menu-down"></span><span class="menu-up"></span></a></li>
+                            <li><a href="nguon-nhan-luc.aspx">Liên kết<span class="menu-down"></span><span class="menu-up"></span></a></li>
+                        </ul>
+                        <div class="clr">
+                        </div>
                     </div>
                 </div>
-                <div class="logo">
-                    <a id="A1" href="~/" runat="server">
-                        <img src="assets/images/logo.png" alt="logo" /></a></div>
-                <div class="nameco">
-                    XÍ NGHIỆP KHAI THÁC CÁC CÔNG TRÌNH KHÍ<strong>"VSP GAS ENTERPRISE"</strong></div>
             </div>
-            <div class="wrapper-menu">
-                <div class="container">
-                    <ul id="menu">
-                        <li class="active"><a id="A2" href="~/" runat="server">Trang chủ<span class="menu-down"></span><span class="menu-up"></span></a> </li>
-                        <li><a href="gioi-thieu.aspx">Giới thiệu<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                        <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span class="menu-up"></span></a>
-                            <ul>
-                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                                <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="don-vi-thanh-vien.aspx">Đơn Vị Thành Viên<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                        <li><a href="tin-tuc-su-kien.aspx">Tin Tức - Sự Kiện<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                        <li><a href="du-an.aspx">Dự Án<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                        <li><a href="doi-tac.aspx">Đối Tác - Khách Hàng<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                        <li><a href="nguon-nhan-luc.aspx">Thông báo<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                        <li><a href="nguon-nhan-luc.aspx">Liên kết<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                    </ul>
-                    <div class="clr">
+            <!--end header-->
+            <hr />
+            <!--main-->
+            <div id="mainContent">
+                <div id="banner">
+                    <div class="slider-wrapper">
+                        <div id="slider" class="nivoSlider">
+                            <img src="assets/images/banner-img-1.jpg" alt="" />
+                            <img src="assets/images/banner-img-2.jpg" alt="" />
+                            <img src="assets/images/banner-img-3.jpg" alt="" />
+                            <img src="assets/images/banner-img-4.jpg" alt="" />
+                        </div>
                     </div>
                 </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
             </div>
-        </div>
-        <!--end header-->
-        <hr />
-        <!--main-->
-        <div id="mainContent">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-        <div id="wrapParent">
+            <div id="wrapParent">
                 <div class="container">
                     <div id="sliderParent">
                         <div>
@@ -126,23 +145,34 @@
                     </div>
                 </div>
             </div>
-        <!--end main-->
-        <hr />
-        <div id="footer">
-            <div class="container">
+            <!--end main-->
+            <hr />
+            <div id="footer">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-7">
-                            <h4>VIETSOVPETRO</h4>
-                            <p><span class="icon-p">
-                                <img src="assets/images/icon-c-1.png" alt="" /></span>105 Lê Lợi, Phường Thắng Nhì, Thành phố Vũng Tàu, Tỉnh Bà Rịa-Vũng Tàu, Việt Nam</p>                            <p><span class="icon-p"><img src="assets/images/icon-c-2.png" alt="" /></span><span>+84.64.3839 871</span> <span class="icon-p"><img src="assets/images/icon-c-3.png" alt="" /></span><span>+84.64.3839857</span></p>
+                            <h4>
+                                VIETSOVPETRO</h4>
+                            <p>
+                                <span class="icon-p">
+                                    <img src="assets/images/icon-c-1.png" alt="" /></span>105 Lê Lợi, Phường Thắng
+                                Nhì, Thành phố Vũng Tàu, Tỉnh Bà Rịa-Vũng Tàu, Việt Nam</p>
+                            <p>
+                                <span class="icon-p">
+                                    <img src="assets/images/icon-c-2.png" alt="" /></span><span>+84.64.3839 871</span>
+                                <span class="icon-p">
+                                    <img src="assets/images/icon-c-3.png" alt="" /></span><span>+84.64.3839857</span></p>
                         </div>
                         <div class="col-md-5 text-right">
-                                
-                            <p>&copy; Copyright 2015 VIETSOVPETRO, All rights reserved</p>                            <p><a href="http://www.tranlegroup.com.vn" target="_blank">Thiet ke web</a> <a href="http://www.tranlegroup.com.vn" target="_blank">Trần Lê</a></p>
+                            <p>
+                                &copy; Copyright 2015 VIETSOVPETRO, All rights reserved</p>
+                            <p>
+                                <a href="http://www.tranlegroup.com.vn" target="_blank">Thiet ke web</a> <a href="http://www.tranlegroup.com.vn"
+                                    target="_blank">Trần Lê</a></p>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
     </div>
     <asp:ContentPlaceHolder ID="cphPopup" runat="server">

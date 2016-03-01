@@ -2,20 +2,10 @@
     CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <title>VSP Gas</title>
-    <meta name="description" content="VSP Gas" />
+    <title>VSPGas</title>
+    <meta name="description" content="VSPGas" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div id="banner">
-        <div class="slider-wrapper">
-            <div id="slider" class="nivoSlider">
-                <img src="assets/images/banner-img-1.jpg" alt="" />
-                <img src="assets/images/banner-img-2.jpg" alt="" />
-                <img src="assets/images/banner-img-3.jpg" alt="" />
-                <img src="assets/images/banner-img-4.jpg" alt="" />
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="wrapper-service">
             <div class="service-box">

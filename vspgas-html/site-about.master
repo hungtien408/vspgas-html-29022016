@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-about.master.cs"
+    Inherits="site_about" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container">
+        <div id="site">
+            <asp:ContentPlaceHolder id="cphSite" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="colAside">
+            <ul id="listAbout" class="menu-about">
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Quá trình phát triển</a></li>
+                <li><a href="#">Cơ cấu tổ chức</a></li>
+                <li><a href="#">Cơ sở vật chất</a></li>
+                <li><a href="#">Các danh hiệu</a></li>
+            </ul>
+        </div>
+        <div id="colMain">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphPopup" runat="Server">
+</asp:Content>
