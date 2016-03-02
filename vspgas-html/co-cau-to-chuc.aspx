@@ -11,7 +11,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h2 class="title text-uppercase">
         Cơ cấu tổ chức</h2>
-    <div class="wrapper-about">
+    <div class="wrapper-text">
         <div class="head"><h2 class="title-about">SƠ ĐỒ TỔ CHỨC XÍ NGHIỆP KHAI THÁC CÁC CÔNG TRÌNH KHÍ</h2></div>
         <p>
             <img src="assets/images/img-about-1.jpg" alt="" width="100%" /></p>

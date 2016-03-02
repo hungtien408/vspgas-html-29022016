@@ -12,7 +12,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h2 class="title text-uppercase">Giới thiệu</h2>
-    <div class="wrapper-about">
+    <div class="wrapper-text">
         <table cellpadding="0" cellspacing="0" width="100%">
             <tr>
                 <td><p>- Tên đơn vị:</p></td>

@@ -13,7 +13,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h2 class="title text-uppercase">
         Dịch vụ</h2>
-    <div class="wrapper-product">
+    <div class="wrapper-text">
         <div class="head">
             <h2 class="title-about">
                 Vận hành, bảo dưỡng toàn bộ giàn nén khí với công suất lớn và thiết bị chuyên ngành</h2>

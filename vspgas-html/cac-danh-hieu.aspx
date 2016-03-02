@@ -11,7 +11,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h2 class="title text-uppercase">
         Các danh hiệu</h2>
-    <div class="wrapper-about">
+    <div class="wrapper-text">
         <div class="head"><h2 class="title-about">Danh hiệu thi đua:</h2></div>
         <table class="tb-cdh" cellpadding="0" cellspacing="0">
             <tr>

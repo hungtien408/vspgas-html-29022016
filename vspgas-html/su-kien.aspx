@@ -13,7 +13,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h2 class="title text-uppercase">
         Sự kiện</h2>
-    <div class="wrapper-events">
+    <div class="wrapper-text">
         <div class="event-box">
             <div class="event-img">
                 <img src="assets/images/event-img-1.jpg" alt="" /></div>

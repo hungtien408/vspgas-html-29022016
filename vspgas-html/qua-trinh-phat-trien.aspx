@@ -12,7 +12,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h2 class="title text-uppercase">
         Quá trình phát triển</h2>
-    <div class="wrapper-about">
+    <div class="wrapper-text">
         <p>
             <img src="assets/images/img-about.jpg" alt="" /><span>Tập thể CBCNV XN Khí</span></p>
         <p>

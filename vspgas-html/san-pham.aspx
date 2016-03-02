@@ -13,7 +13,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h2 class="title text-uppercase">
         Sản phẩm</h2>
-    <div class="wrapper-product">
+    <div class="wrapper-text">
         <div class="head">
             <h2 class="title-about">
                 Khí đồng hành</h2>
