@@ -15,20 +15,32 @@
     <div class="wrapper-about">
         <table cellpadding="0" cellspacing="0" width="100%">
             <tr>
-                <td>- Tên đơn vị:</td>
-                <td><strong>XÍ NGHIỆP KHAI THÁC CÁC CÔNG TRÌNH KHÍ</strong></td>
+                <td><p>- Tên đơn vị:</p></td>
+                <td><p><strong>XÍ NGHIỆP KHAI THÁC CÁC CÔNG TRÌNH KHÍ</strong></p></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td><p>- Tên giao dịch quốc tế:</p></td>
+                <td><p><strong>VSP Gas Enterprise – Viết tắt: VSPGas</strong></p></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td><p>- Địa chỉ:</p></td>
+                <td><p>05 Lê Lợi, Vũng Tàu</p></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td><p>- Điện thoại:</p></td>
+                <td><p>84-64-832383</p></td>
+            </tr>
+            <tr>
+                <td><p>- Fax:</p></td>
+                <td><p>84-64-832384</p></td>
+            </tr>
+            <tr>
+                <td><p>- Website: </p></td>
+                <td><p>...</p></td>
+            </tr>
+            <tr>
+                <td><p>- Logo: </p></td>
+                <td><p><img src="assets/images/logo-about.jpg" alt=""/></p></td>
             </tr>
         </table>
     </div>

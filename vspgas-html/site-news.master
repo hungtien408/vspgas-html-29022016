@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-news.master.cs" Inherits="site_news" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="container">
+        <div id="site">
+            <asp:ContentPlaceHolder id="cphSite" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="colAside">
+            <ul id="listProduct" class="menu-about">
+                <li><a href="tin-tuc.aspx">Tin tức</a></li>
+                <li><a href="su-kien.aspx">Sự kiện</a></li>
+            </ul>
+        </div>
+        <div id="colMain">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphPopup" Runat="Server">
+</asp:Content>
+

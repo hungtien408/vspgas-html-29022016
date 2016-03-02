@@ -103,7 +103,7 @@
                 </ul>
             </div>
             <div class="wrapper-news">
-                <h4 class="news-tit"><a href="#" class="corner">Nguồn nhân lực</a></h4>
+                <h4 class="news-tit"><a href="#" class="corner">Thông báo</a></h4>
                 <div class="news-box">
                     <h4 class="news-name"><a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
                     <div class="author">Tác giả:Nguyễn Huỳnh, 25/12/2015</div>

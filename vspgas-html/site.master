@@ -46,6 +46,21 @@
     <script src="assets/js/hoverIntent.js" type="text/javascript"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <!--active menu-->
+    <script type="text/javascript">
+        function changeActiveMenu(page) {
+            $('#menu li').removeClass("active");
+            $('#menu li a[href*="' + page + '"]').parent("li").addClass("active");
+        }
+        function changeSubActiveMenu(page) {
+            $('#menu li li').removeClass("active");
+            $('#menu li li a[href$="' + page + '"]').closest("li").addClass("active");
+            $('.menu-about li').removeClass("active");
+            $('.menu-about li a[href$="' + page + '"]').closest("li").addClass("active");
+            $('.menu-nav li').removeClass("active");
+            $('.menu-nav li a[href$="' + page + '"]').closest("li").addClass("active");
+        }
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -73,22 +88,18 @@
                             <li class="active"><a id="A2" href="~/" runat="server">Trang chủ<span class="menu-down"></span><span
                                 class="menu-up"></span></a> </li>
                             <li><a href="gioi-thieu.aspx">Giới thiệu<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                            <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                            <li><a href="san-pham.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
                                 class="menu-up"></span></a>
                                 <ul>
-                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                    <li><a href="san-pham.aspx">Sản Phẩm<span class="menu-down"></span><span
                                         class="menu-up"></span></a></li>
-                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
-                                        class="menu-up"></span></a></li>
-                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
-                                        class="menu-up"></span></a></li>
-                                    <li><a href="san-pham-dich-vu.aspx">Sản Phẩm - Dịch Vụ<span class="menu-down"></span><span
+                                    <li><a href="dich-vu.aspx">Dịch Vụ<span class="menu-down"></span><span
                                         class="menu-up"></span></a></li>
                                 </ul>
                             </li>
                             <li><a href="don-vi-thanh-vien.aspx">Đơn Vị Thành Viên<span class="menu-down"></span><span
                                 class="menu-up"></span></a></li>
-                            <li><a href="tin-tuc-su-kien.aspx">Tin Tức - Sự Kiện<span class="menu-down"></span><span
+                            <li><a href="su-kien.aspx">Tin Tức - Sự Kiện<span class="menu-down"></span><span
                                 class="menu-up"></span></a></li>
                             <li><a href="du-an.aspx">Dự Án<span class="menu-down"></span><span class="menu-up"></span></a></li>
                             <li><a href="doi-tac.aspx">Đối Tác - Khách Hàng<span class="menu-down"></span><span

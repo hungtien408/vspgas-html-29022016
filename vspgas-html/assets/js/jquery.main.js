@@ -4,6 +4,7 @@
     $(window).load(function () {
     });
     $(function () {
+        mymenue();
         myfunload();
         mypageload();
         resizemenu();
@@ -139,34 +140,38 @@ function mymenure() {
 }
 function mymenue() {
     var pal = 2;
-    $("#menu > li").width("auto");
-    var countm = $("#menu > li").size();
-    var wm = $("#menu").width();
+    //$("#menu > li > a").width("auto");
+    var countm = $("#menu > li > a").size();
+    var wm = $("#menu").outerWidth();
     var wlia = 0;
-    $("#menu > li").each(function (e) {
+    $("#menu > li > a").each(function (e) {
         wlia += $(this).outerWidth();
     });
-    var wli = parseInt(((wm - wlia) / countm));
+    var wli = Math.round(((wm - wlia) / countm)) - pal;
     var wto = 0;
-    $("#menu > li").each(function (e) {
+    $("#menu > li > a").each(function (e) {
         var wlis = $(this).width() + wli;
+        var wlisa = 0;
         if (e == countm - 1) {
             var we = (wm - wto - (pal * e) - pal) - pal;
-            $(this).width(we);
+            wlisa = we;
         } else {
             wto += wlis;
-            $(this).width(wlis);
+            wlisa = wlis;
         }
+        var blr = Math.round(wlisa / 2);
+        $(this).width(wlisa);
+        $(this).find(".menu-down").css({ "border-left-width": blr + "px", "border-right-width": blr + "px" });
     });
 }
-
+/*==test==*/
 function resizemenu() {
     var countm = $("#menu > li").size();
     $("#menu > li").each(function (e) {
         if (e == countm - 1) {
             var width = $("#menu > li").width();
             var total = 106 * 85 / width;
-            $("#menu > li > a > .menu-down").css("border-left", total + " solid transparent");
+            $("#menu > li > a > .menu-down").css("border-left", total + " px solid transparent");
         }
     });
 }

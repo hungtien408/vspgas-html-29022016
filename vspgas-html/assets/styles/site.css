@@ -175,11 +175,11 @@ hr {
 {
     color: #fff;
     display: block;
+    float: left;
     font-size: 14px;
     font-weight: 700;
-    line-height: 45px;
-    height: 45px;
-    padding: 0 12px;
+    /*padding: 0 12px;*/
+    white-space: nowrap;
     text-transform: uppercase;
     text-align: center;
         -webkit-transition: all .2s;
@@ -194,21 +194,21 @@ hr {
 #menu > li:last-child {
     background: none;
 }
-#menu a:hover, #menu a:visited, #menu a:focus, #menu li.active a {
+#menu a:hover, #menu a:visited, #menu a:focus, 
+#menu > li.active > a, #menu > li:hover > a, #menu > li > a:hover  {
     text-decoration: none;
     background-color: #79c830;
 }
 #menu .menu-down {
     display: block;
     top: 100%;
-    left: 10%; 
-    margin-left: -10px;
+    left: 0; 
     position: absolute;
     width:0px;
 	  height:0px;
-	  border-left: 55px solid transparent;
+	  border-left: 50px solid transparent;
 	  border-right: 50px solid transparent;
-	  border-top: 30px solid #79c830; /* Tam giác phía trên được đổ màu */
+	  border-top: 20px solid #79c830; /* Tam giác phía trên được đổ màu */
       visibility: hidden;
 }
 #menu .menu-up {
@@ -256,20 +256,19 @@ hr {
 {
     left: 0;
     top: 100%;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 #menu ul ul
 {
     left: 100%;
     top: 0;
 }
-#menu ul > li > a:hover, #menu ul > li:hover > a, #menu ul > li.active > a
+#menu ul li > a {
+     background-color: #79c830;
+}
+#menu ul li > a:hover, #menu ul li:hover > a, #menu ul li.active > a
 {
     background-color: #79c830;
-    
-}
-#menu > li:hover {
-    background: none;
 }
 /*======================================================MAIN=============================================*/
 #mainContent {
@@ -584,7 +583,105 @@ hr {
     font-size: 30px;
     font-weight: 600;
     line-height: 40px;
+    width: 100%;
+}
+.wrapper-about, .wrapper-product, .wrapper-events {
+    margin: 55px 0;
+    color: #282828;
+    overflow: hidden;
+    line-height: 24px;
+    width: 100%;
+}
+.wrapper-about p {
+    font-size: 14px;
+    line-height: 30px;
+}
+.wrapper-about span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    color: #838383;
+}
+.list-about, .list-csvc {
+    display: block;
+    margin: 0;
+    padding-left: 25px;
+    list-style: none;
+}
+.list-about li {
+    padding: 3px 0;
+}
+.head {
+    background-color: #90d043;
+    overflow: hidden;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+.head .title-about {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
     width: auto;
+    text-transform: uppercase;
+}
+.list-csvc li {
+    padding-left: 30px;
+    background: url('../images/icon-csvc.png') no-repeat left 15px;
+}
+.tb-cdh {
+    border: 1px solid #d7d7d7; 
+    text-align: left; 
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.tb-cdh td, .tb-cdh th {
+    border: 1px solid #d7d7d7;
+    padding: 10px;
+    font-size: 14px;
+}
+.tb-cdh td:last-child, .tb-cdh th:last-child {
+    width: 70%;
+}
+.tb-cdh th {
+    background-color: #d5efb5;
+    border: 1px solid #99bd6e;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+/*=======product=========*/
+.pro-box, .event-box {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.pro-box .pro-img, .event-box .event-img {
+    display: block;
+    float: left;
+    width: 313px;
+}
+.pro-box .pro-img img, .event-box .event-img img {
+    display: block;
+    width: 100%;
+}
+.pro-box  .pro-content, .event-box  .event-content {
+    overflow: hidden;
+    padding-left: 30px;
+}
+/*====events====*/
+.event-box .event-img {
+    width: 284px;
+}
+.event-box  .event-content {
+    font-weight: 600;
 }
 /*========scroltop=======*/
 #sroltop

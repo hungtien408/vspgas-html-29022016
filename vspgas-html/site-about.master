@@ -13,11 +13,11 @@
         </div>
         <div id="colAside">
             <ul id="listAbout" class="menu-about">
-                <li><a href="#">Giới thiệu</a></li>
-                <li><a href="#">Quá trình phát triển</a></li>
-                <li><a href="#">Cơ cấu tổ chức</a></li>
-                <li><a href="#">Cơ sở vật chất</a></li>
-                <li><a href="#">Các danh hiệu</a></li>
+                <li><a href="gioi-thieu.aspx">Giới thiệu</a></li>
+                <li><a href="qua-trinh-phat-trien.aspx">Quá trình phát triển</a></li>
+                <li><a href="co-cau-to-chuc.aspx">Cơ cấu tổ chức</a></li>
+                <li><a href="co-so-vat-chat.aspx">Cơ sở vật chất</a></li>
+                <li><a href="cac-danh-hieu.aspx">Các danh hiệu</a></li>
             </ul>
         </div>
         <div id="colMain">
