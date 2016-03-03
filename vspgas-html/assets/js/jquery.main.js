@@ -114,6 +114,15 @@ function myListTb() {
         listpos: [{ cssnamepos: ".description", cssheightnum: "5"}],
         max: true
     });
+    $('.row-project').textHeight({
+        activetit: true,
+        listcss: [{ cssname: ".title-sui a"}],
+        wpointb: false,
+        widthpont: 420,
+        desbool: true,
+        listpos: [{ cssnamepos: ".title-sui a", cssheightnum: "1"}],
+        max: true
+    });
     if ($('.news-tb').size() > 0) {
         $('.news-tb').textHeight({
             activetit: true,

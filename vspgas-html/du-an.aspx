@@ -18,13 +18,68 @@
             <div class="row-project">
                 <div class="col-box">
                     <div class="box-in">
-                            <a href="dich-vu-tu-van-tai-cau-truc-doanh-nghiep-dv-3.aspx" class="logo-img">
-                                <img src="../res/article/dich-vu-tu-van-tai-cau-truc-doanh-nghiep-3.jpg" class="corner">
-                            </a>
-                            <h4 class="title-sui" style="height: 44px;">
-                                <a href="dich-vu-tu-van-tai-cau-truc-doanh-nghiep-dv-3.aspx">Dịch vụ tư vấn tái cấu trúc doanh nghiệp</a></h4>
-                        </div>
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/img-project-1.jpg" alt="" />
+                        </a>
+                        <h4 class="title-sui">
+                            <a href="#">Dự án Lắp đặt by – pass đường ống Rạng Đông – Bạch Hổ</a>
+                        </h4>
+                    </div>
                 </div>
+                <div class="col-box">
+                    <div class="box-in">
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/img-project-2.jpg" alt="" />
+                        </a>
+                        <h4 class="title-sui">
+                            <a href="#">Dự án cải hoán, nâng cấp công suất Riser Block - CCP lên... </a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-box">
+                    <div class="box-in">
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/img-project-3.jpg" alt="" />
+                        </a>
+                        <h4 class="title-sui">
+                            <a href="#">Hợp đồng “Chìa khóa trao tay” dự án Thu gom khí mỏ... </a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-box">
+                    <div class="box-in">
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/img-project-4.jpg" alt="" />
+                        </a>
+                        <h4 class="title-sui">
+                            <a href="#">Dự án Thu gom khí thấp áp Vòm Bắc mỏ Bạch Hổ </a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-box">
+                    <div class="box-in">
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/img-project-5.jpg" alt="" />
+                        </a>
+                        <h4 class="title-sui">
+                            <a href="#">Cải hoán khí đầu vào MSP4-MSP9 </a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-box">
+                    <div class="box-in">
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/img-project-6.jpg" alt="" />
+                        </a>
+                        <h4 class="title-sui">
+                            <a href="#">Nâng cấp CCP </a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="pager">
+                <a class="prev fa fa-caret-left" href="#">
+                </a><a class="current" href="#">1</a> <a href="#">2</a> <a href="#">3</a><a class="next fa fa-caret-right" href="#"></a>
             </div>
         </div>
     </div>
