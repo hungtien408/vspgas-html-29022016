@@ -590,7 +590,7 @@ hr {
     line-height: 40px;
     width: 100%;
 }
-.wrapper-text {
+.wrapper-text, .contact-wrapper {
     margin: 55px 0;
     color: #282828;
     overflow: hidden;
@@ -612,6 +612,8 @@ hr {
     display: block;
     margin: 0;
     padding-left: 25px;
+}
+.list-csvc {
     list-style: none;
 }
 .list-about li {
@@ -632,7 +634,7 @@ hr {
     width: auto;
     text-transform: uppercase;
 }
-.list-csvc li {
+.list-csvc > li {
     padding-left: 30px;
     background: url('../images/icon-csvc.png') no-repeat left 15px;
 }
@@ -773,6 +775,149 @@ hr {
 {
     background-color: #fff;
     color: #c30e17;
+}
+/*====contact====*/
+.contact-left {
+    padding-right: 35px;
+    width: 585px;
+    float: left;
+}
+.contact-right {
+    float: right;
+    width: 585px;
+}
+.mapw {
+    padding-left: 35px;
+    margin-left: -1px;
+}
+.about-contact, .about-contact a, .address-contact, .address-contact a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 600;
+}
+.about-contact {
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.about-contact h2, .address-contact h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.address-contact {
+    padding: 42px 0;
+}
+.address-contact h3 {
+    font-size: 18px;
+    text-transform: none;
+    margin: 0 0 30px;
+}
+.address-contact .icon-p {
+    display: block;
+    vertical-align: top;
+    left: 0;
+    top: 5px;
+    position: absolute;
+    text-align: center;
+    width: 20px;
+}
+.address-contact p {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+/*====map*/
+.contact .map, #mapwrap
+{
+    background: #fff;
+    height: 491px;
+    overflow: hidden;
+    width: 100%;
+}
+#mapwrap
+{
+    background: #fff;
+    border: solid 1px #d9d9d9;
+    padding: 1px;
+    overflow: hidden;
+}
+.map .map-content
+{
+    overflow: hidden;
+    height: 487px;
+    width: 100%;
+}
+
+#map
+{
+    height: 600px;
+}
+
+#map .box
+{
+    font-style: italic;
+    width: 310px;
+}
+
+#map .box, #map .box a
+{
+    color: #656565;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#map .box h2
+{
+    color: #ee1b2a;
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#map .box p
+{
+    padding: 3px 0 3px 30px;
+    margin: 0;
+}
+#map .box .contact-1
+{
+    background: url(../images/icon-p-1.png) no-repeat 3px 5px;
+}
+#map .box .contact-2
+{
+    background: url(../images/icon-p-2.png) no-repeat 3px 4px;
+}
+#map .box .contact-3
+{
+    background: url(../images/icon-p-3.png) no-repeat 5px 3px;
+}
+#map .box .contact-3 a
+{
+    display: inline-block;
+    padding: 3px 0 3px 24px;
+    margin-right: 10px;
+}
+#map .box .wrap-mapbox
+{
+}
+.contact .map strong
+{
+    color: #222;
+}
+
+.contact .map a
+{
+    color: #333;
+    font-size: 12px;
 }
 /*========scroltop=======*/
 #sroltop

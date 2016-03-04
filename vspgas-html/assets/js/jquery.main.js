@@ -86,7 +86,12 @@ function myfunload() {
             ]
         });
     }
-    
+    if ($("#contactus").size() == 1) {
+        mymap();
+        $(window).resize(function () {
+            mymap();
+        });
+    }
     myfunsroll();
     
 }
@@ -185,6 +190,14 @@ function resizemenu() {
     });
 }
 /*===============================*/
+function mymap() {
+    $("#contactus #mapwrap").remove();
+    if ($(window).width() > 767) {
+        $("#contactus .mapw").append('<div id="mapwrap"><iframe id="iframe" src="map.aspx" frameborder="0" height="100%" width="100%"></iframe></div>');
+    } else {
+        $("#contactus #mapwrap").remove();
+    }
+}
 function myfunsroll() {
     menusroll();
     mysroll();
