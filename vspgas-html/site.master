@@ -97,15 +97,15 @@
                                         class="menu-up"></span></a></li>
                                 </ul>
                             </li>
-                            <li><a href="don-vi-thanh-vien.aspx">Đơn Vị Thành Viên<span class="menu-down"></span><span
+                            <li><a href="#">Đơn Vị Thành Viên<span class="menu-down"></span><span
                                 class="menu-up"></span></a></li>
                             <li><a href="su-kien.aspx">Tin Tức - Sự Kiện<span class="menu-down"></span><span
                                 class="menu-up"></span></a></li>
                             <li><a href="du-an.aspx">Dự Án<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                            <li><a href="doi-tac.aspx">Đối Tác - Khách Hàng<span class="menu-down"></span><span
+                            <li><a href="#">Đối Tác - Khách Hàng<span class="menu-down"></span><span
                                 class="menu-up"></span></a></li>
                             <li><a href="nguon-nhan-luc.aspx">Thông báo<span class="menu-down"></span><span class="menu-up"></span></a></li>
-                            <li><a href="nguon-nhan-luc.aspx">Liên kết<span class="menu-down"></span><span class="menu-up"></span></a></li>
+                            <li><a href="lien-he.aspx">Liên kết<span class="menu-down"></span><span class="menu-up"></span></a></li>
                         </ul>
                         <div class="clr">
                         </div>
