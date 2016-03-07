@@ -12,7 +12,7 @@
             </asp:ContentPlaceHolder>
         </div>
         <div id="colAside">
-            <ul id="listAbout" class="menu-about">
+            <ul id="listAbout" class="menu-about desktop-992">
                 <li><a href="gioi-thieu.aspx">Giới thiệu</a></li>
                 <li><a href="qua-trinh-phat-trien.aspx">Quá trình phát triển</a></li>
                 <li><a href="co-cau-to-chuc.aspx">Cơ cấu tổ chức</a></li>

@@ -14,6 +14,7 @@
 /*=============================fun=========================================*/
 function myfunload() {
     //mymenure();
+    $(".panel-a").mobilepanel();
     if ($('#slider').size() == 1) {
         var $banner = $('#slider').imagesLoaded(function () {
             $banner.nivoSlider({
