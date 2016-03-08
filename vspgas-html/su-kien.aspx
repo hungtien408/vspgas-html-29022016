@@ -11,12 +11,12 @@
         tức - sự kiện</span>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <h2 class="title text-uppercase">
-        Sự kiện</h2>
+    <h2 class="title text-uppercase mobile-992"><a class="text-uppercase panel-a" href="#mobileRight" data-position="false" data-type="false">Sự kiện<span class="icona glyphicon glyphicon-chevron-down"></span></a></h2>
+    <h2 class="title text-uppercase desktop-992">Sự kiện</h2>
     <div class="wrapper-text">
         <div class="event-box">
             <div class="event-img">
-                <img src="assets/images/event-img-1.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/event-img-1.jpg" alt="" /></div>
             <div class="event-content">
                 <p>
                     Ngày 28/02/1997 – Giàn nén khí Nhỏ được đưa vào vận hành với công suất 1.3 triệu
@@ -26,7 +26,7 @@
         </div>
         <div class="event-box">
             <div class="event-img">
-                <img src="assets/images/event-img-1.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/event-img-1.jpg" alt="" /></div>
             <div class="event-content">
                 <p>
                     Ngày 31/07/1997 – Giàn nén khí Trung tâm được đưa vào vận hành, xử lý và nén khi
@@ -36,7 +36,7 @@
         </div>
         <div class="event-box">
             <div class="event-img">
-                <img src="assets/images/event-img-1.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/event-img-1.jpg" alt="" /></div>
             <div class="event-content">
                 <p>
                     Ngày 29/11/2010 – Côn trình Thu gom khí đồng hành và gaslift mỏ Rồng – Đồi Mồi do
@@ -47,7 +47,7 @@
         </div>
         <div class="event-box">
             <div class="event-img">
-                <img src="assets/images/event-img-1.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/event-img-1.jpg" alt="" /></div>
             <div class="event-content">
                 <p>
                     Ngày 02/12/2013 – Dự án Mở rộng hệ thống thu gom khí mỏ Rồng – Đồi Mồi do Vietsovpetro
@@ -57,7 +57,7 @@
         </div>
         <div class="event-box">
             <div class="event-img">
-                <img src="assets/images/event-img-1.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/event-img-1.jpg" alt="" /></div>
             <div class="event-content">
                 <p>
                     Ngày 17/07/2015 – Hạng mục công trình Mở rộng giàn nén khí lớn CCP (Train F) đưa

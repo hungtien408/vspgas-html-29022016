@@ -8,7 +8,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container">
         <div id="site">
-            <asp:ContentPlaceHolder id="cphSite" runat="server">
+            <asp:ContentPlaceHolder ID="cphSite" runat="server">
             </asp:ContentPlaceHolder>
         </div>
         <div id="colAside">
@@ -21,10 +21,28 @@
             </ul>
         </div>
         <div id="colMain">
-            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphPopup" runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphBottom" runat="Server">
+    <div id="mobileRight" class="mobile-panel mobilep-right mobile-bg">
+        <div class="close-menu">
+            <a href="#mobileRight" class="glyphicon glyphicon-remove-circle"></a>
+        </div>
+        <div class="menu-in">
+            <div class="menu-mobile">
+                <ul id="listmoAbout" class="menu-nav text-capitalize">
+                    <li><a href="gioi-thieu.aspx">Giới thiệu</a></li>
+                    <li><a href="qua-trinh-phat-trien.aspx">Quá trình phát triển</a></li>
+                    <li><a href="co-cau-to-chuc.aspx">Cơ cấu tổ chức</a></li>
+                    <li><a href="co-so-vat-chat.aspx">Cơ sở vật chất</a></li>
+                    <li><a href="cac-danh-hieu.aspx">Các danh hiệu</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </asp:Content>

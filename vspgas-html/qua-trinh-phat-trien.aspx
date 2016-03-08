@@ -10,11 +10,11 @@
     </span></a><a href="#">Giới thiệu <span class="fa fa-caret-right"></span></a><span>Quá trình phát triển</span>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <h2 class="title text-uppercase">
-        Quá trình phát triển</h2>
+    <h2 class="title text-uppercase mobile-992"><a class="text-uppercase panel-a" href="#mobileRight" data-position="false" data-type="false">Quá trình phát triển<span class="icona glyphicon glyphicon-chevron-down"></span></a></h2>
+    <h2 class="title text-uppercase desktop-992">Quá trình phát triển</h2>
     <div class="wrapper-text">
         <p>
-            <img src="assets/images/img-about.jpg" alt="" /><span>Tập thể CBCNV XN Khí</span></p>
+            <img class="img-responsive" src="assets/images/img-about.jpg" alt="" /><span>Tập thể CBCNV XN Khí</span></p>
         <p>
             Xí nghiệp khai thác các Công trình Khí (Viết tắt: XNKT các CT Khí) chính thức được
             thành lập ngày 19 tháng 5 năm 1995, trên cơ sở Quyết định số 1948/DK-TD-TDKT ngày

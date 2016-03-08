@@ -15,8 +15,8 @@
         <h2 class="title text-uppercase">
             Dự án</h2>
         <div class="wrapper-text">
-            <div class="row-project">
-                <div class="col-box">
+            <div class="row-project row">
+                <div class="col-md-6 col-xs-6">
                     <div class="box-in">
                         <a href="#" class="logo-img">
                             <img src="assets/images/img-project-1.jpg" alt="" />
@@ -26,7 +26,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col-box">
+                <div class="col-md-6 col-xs-6">
                     <div class="box-in">
                         <a href="#" class="logo-img">
                             <img src="assets/images/img-project-2.jpg" alt="" />
@@ -36,7 +36,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col-box">
+                <div class="col-md-6 col-xs-6">
                     <div class="box-in">
                         <a href="#" class="logo-img">
                             <img src="assets/images/img-project-3.jpg" alt="" />
@@ -46,7 +46,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col-box">
+                <div class="col-md-6 col-xs-6">
                     <div class="box-in">
                         <a href="#" class="logo-img">
                             <img src="assets/images/img-project-4.jpg" alt="" />
@@ -56,7 +56,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col-box">
+                <div class="col-md-6 col-xs-6">
                     <div class="box-in">
                         <a href="#" class="logo-img">
                             <img src="assets/images/img-project-5.jpg" alt="" />
@@ -66,7 +66,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col-box">
+                <div class="col-md-6 col-xs-6">
                     <div class="box-in">
                         <a href="#" class="logo-img">
                             <img src="assets/images/img-project-6.jpg" alt="" />

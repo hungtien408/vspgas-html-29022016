@@ -24,4 +24,18 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphPopup" Runat="Server">
 </asp:Content>
-
+<asp:Content ID="Content4" ContentPlaceHolderID="cphBottom" runat="Server">
+    <div id="mobileRight" class="mobile-panel mobilep-right mobile-bg">
+        <div class="close-menu">
+            <a href="#mobileRight" class="glyphicon glyphicon-remove-circle"></a>
+        </div>
+        <div class="menu-in">
+            <div class="menu-mobile">
+                <ul id="listmoAbout" class="menu-nav text-capitalize">
+                    <li><a href="tin-tuc.aspx">Tin tức</a></li>
+                    <li><a href="su-kien.aspx">Sự kiện</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</asp:Content>

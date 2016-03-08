@@ -20,6 +20,7 @@ function myfunload() {
             $banner.nivoSlider({
                 pauseOnHover: false,
                 directionNav: false,
+                effect: 'random',
                 controlNav: true
             });
         });

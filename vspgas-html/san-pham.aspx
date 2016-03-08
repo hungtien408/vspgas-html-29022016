@@ -11,8 +11,8 @@
         phẩm &amp; dịch vụ</span>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <h2 class="title text-uppercase">
-        Sản phẩm</h2>
+    <h2 class="title text-uppercase mobile-992"><a class="text-uppercase panel-a" href="#mobileRight" data-position="false" data-type="false">Sản phẩm<span class="icona glyphicon glyphicon-chevron-down"></span></a></h2>
+    <h2 class="title text-uppercase desktop-992">Sản phẩm</h2>
     <div class="wrapper-text">
         <div class="head">
             <h2 class="title-about">
@@ -20,7 +20,7 @@
         </div>
         <div class="pro-box">
             <div class="pro-img">
-                <img src="assets/images/pro-img-1.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/pro-img-1.jpg" alt="" /></div>
             <div class="pro-content">
                 <p>
                     Bên cạnh dầu thô, LD Việt Nga cũng sản xuất hàng tỉ mét khối khí. Một hệ thống tập
@@ -38,7 +38,7 @@
         </div>
         <div class="pro-box">
             <div class="pro-img">
-                <img src="assets/images/pro-img-2.jpg" alt="" /></div>
+                <img class="img-responsive" src="assets/images/pro-img-2.jpg" alt="" /></div>
             <div class="pro-content">
                 <p>
                     Bên cạnh dầu thô, LD Việt Nga cũng sản xuất hàng tỉ mét khối khí. Một hệ thống tập

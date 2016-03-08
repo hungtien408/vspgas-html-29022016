@@ -87,84 +87,90 @@
         </div>
         <div class="row news-tblist news-tb">
             <div class="col-md-4 col-xs-6 element-item">
-                <div class="wrapper-news">
-                    <h4 class="news-tit">
-                        <a href="#" class="corner">Tin vietsovpetro</a></h4>
-                    <div class="news-box">
-                        <h4 class="news-name">
-                            <a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
-                        <div class="author">
-                            Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
-                        <a href="#" class="news-img">
-                            <img src="assets/images/news-i-1.jpg" alt="" /></a>
-                        <div class="desription">
-                            Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
-                            Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
+                <div class="box-in">
+                    <div class="wrapper-news">
+                        <h4 class="news-tit">
+                            <a href="#" class="corner">Tin vietsovpetro</a></h4>
+                        <div class="news-box">
+                            <h4 class="news-name">
+                                <a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
+                            <div class="author">
+                                Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
+                            <a href="#" class="news-img">
+                                <img src="assets/images/news-i-1.jpg" alt="" /></a>
+                            <div class="desription">
+                                Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
+                                Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
+                            </div>
+                            <div class="more-details">
+                                <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
+                            </div>
                         </div>
-                        <div class="more-details">
-                            <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
-                        </div>
+                        <ul class="list-news">
+                            <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
+                                Thỏ Trắng 02</a></li>
+                            <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
+                                02 chào mừng Đại hội XII của Đảng</a></li>
+                        </ul>
                     </div>
-                    <ul class="list-news">
-                        <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
-                            Thỏ Trắng 02</a></li>
-                        <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
-                            02 chào mừng Đại hội XII của Đảng</a></li>
-                    </ul>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 element-item">
-                <div class="wrapper-news">
-                    <h4 class="news-tit">
-                        <a href="#" class="corner">Tin dầu khí</a></h4>
-                    <div class="news-box">
-                        <h4 class="news-name">
-                            <a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
-                        <div class="author">
-                            Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
-                        <a href="#" class="news-img">
-                            <img src="assets/images/news-i-2.jpg" alt="" /></a>
-                        <div class="desription">
-                            Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
-                            Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
+                <div class="box-in">
+                    <div class="wrapper-news">
+                        <h4 class="news-tit">
+                            <a href="#" class="corner">Tin dầu khí</a></h4>
+                        <div class="news-box">
+                            <h4 class="news-name">
+                                <a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
+                            <div class="author">
+                                Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
+                            <a href="#" class="news-img">
+                                <img src="assets/images/news-i-2.jpg" alt="" /></a>
+                            <div class="desription">
+                                Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
+                                Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
+                            </div>
+                            <div class="more-details">
+                                <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
+                            </div>
                         </div>
-                        <div class="more-details">
-                            <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
-                        </div>
+                        <ul class="list-news">
+                            <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
+                                Thỏ Trắng 02</a></li>
+                            <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
+                                02 chào mừng Đại hội XII của Đảng</a></li>
+                        </ul>
                     </div>
-                    <ul class="list-news">
-                        <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
-                            Thỏ Trắng 02</a></li>
-                        <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
-                            02 chào mừng Đại hội XII của Đảng</a></li>
-                    </ul>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 element-item">
-                <div class="wrapper-news">
-                    <h4 class="news-tit">
-                        <a href="#" class="corner">Thông báo</a></h4>
-                    <div class="news-box">
-                        <h4 class="news-name">
-                            <a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
-                        <div class="author">
-                            Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
-                        <a href="#" class="news-img">
-                            <img src="assets/images/news-i-3.jpg" alt="" /></a>
-                        <div class="desription">
-                            Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
-                            Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
+                <div class="box-in">
+                    <div class="wrapper-news">
+                        <h4 class="news-tit">
+                            <a href="#" class="corner">Thông báo</a></h4>
+                        <div class="news-box">
+                            <h4 class="news-name">
+                                <a href="#">Kỳ họp lần thứ 45 Hội đồng LD Việt – Nga Vietsovpetro kết thúc thành công</a></h4>
+                            <div class="author">
+                                Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
+                            <a href="#" class="news-img">
+                                <img src="assets/images/news-i-3.jpg" alt="" /></a>
+                            <div class="desription">
+                                Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
+                                Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
+                            </div>
+                            <div class="more-details">
+                                <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
+                            </div>
                         </div>
-                        <div class="more-details">
-                            <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
-                        </div>
+                        <ul class="list-news">
+                            <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
+                                Thỏ Trắng 02</a></li>
+                            <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
+                                02 chào mừng Đại hội XII của Đảng</a></li>
+                        </ul>
                     </div>
-                    <ul class="list-news">
-                        <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
-                            Thỏ Trắng 02</a></li>
-                        <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
-                            02 chào mừng Đại hội XII của Đảng</a></li>
-                    </ul>
                 </div>
             </div>
         </div>

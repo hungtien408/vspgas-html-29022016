@@ -84,7 +84,7 @@
                 </div>
                 <div class="wrapper-menu">
                     <div class="container">
-                        <a class="home-link fa fa-home mobile-992" href="#"></a>
+                        <a class="home-link fa fa-home mobile-992" href="~/" runat="server"></a>
                         <ul id="menu" class="desktop-992">
                             <li class="active"><a id="A2" href="~/" runat="server">Trang chủ<span class="menu-down"></span><span
                                 class="menu-up"></span></a> </li>
@@ -215,6 +215,8 @@
             </div>
         </div>
         <!--menumobile-->
+        <asp:ContentPlaceHolder ID="cphBottom" runat="server">
+        </asp:ContentPlaceHolder>
     </div>
     <asp:ContentPlaceHolder ID="cphPopup" runat="server">
     </asp:ContentPlaceHolder>

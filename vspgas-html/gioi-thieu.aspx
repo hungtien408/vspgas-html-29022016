@@ -11,7 +11,7 @@
     </span></a><span>Giới thiệu</span>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <h2 class="title text-uppercase mobile-992"><a class="panel-right text-uppercase" href="#mobileRight">Giới thiệu<span class="icona glyphicon glyphicon-chevron-down"></span></a></h2>
+    <h2 class="title text-uppercase mobile-992"><a class="text-uppercase panel-a" href="#mobileRight" data-position="false" data-type="false">Giới thiệu<span class="icona glyphicon glyphicon-chevron-down"></span></a></h2>
     <h2 class="title text-uppercase desktop-992">Giới thiệu</h2>
     <div class="wrapper-text">
         <table cellpadding="0" cellspacing="0" width="100%">

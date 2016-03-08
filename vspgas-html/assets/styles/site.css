@@ -932,6 +932,9 @@ body .mobilep-right {
     position: relative;
     width: 100%;
 }
+.title a:hover {
+    text-decoration: none;
+}
 .title a .icona {
     display: block;
     right: 0;
@@ -963,7 +966,6 @@ body .mobilep-right {
 .list-about, .list-csvc {
     display: block;
     margin: 0;
-    padding-left: 25px;
 }
 .list-csvc {
     list-style: none;
@@ -1045,10 +1047,7 @@ body .mobilep-right {
 /*====project====*/
 .row-project {
     overflow: hidden;
-    width: 100%;
     position: relative;
-    left: -15px;
-    width: 1230px
 }
 .row-project .col-box {
     float: left;
@@ -1056,7 +1055,7 @@ body .mobilep-right {
     margin: 0 15px 30px;
 }
 .box-in {
-    /*padding: 35px 15px 55px;*/
+    padding: 15px 0;
 }
 .logo-img {
     display: inline-block;
@@ -1139,8 +1138,9 @@ body .mobilep-right {
     width: 585px;
 }
 .mapw {
-    padding-left: 35px;
-    margin-left: -1px;
+    /*padding-left: 35px;
+    margin-left: -1px;*/
+    width: 100%
 }
 .about-contact, .about-contact a, .address-contact, .address-contact a {
     font-size: 14px;
@@ -1437,6 +1437,7 @@ body .mobilep-right {
     .title {
         font-size: 24px;
         line-height: 30px;
+        border-bottom: 1px solid #90d043;
     }
     #header .logo {
         margin: 10px 0;
@@ -1504,6 +1505,10 @@ body .mobilep-right {
     }
     .service-box .service-name strong {
         font-size: 32px;
+    }
+    /*====contact====*/
+    .contact-wrapper .col-sm-6 {
+        width: 100%;
     }
 }
 /* Landscape phone to portrait tablet */
@@ -1574,6 +1579,21 @@ body .mobilep-right {
     .service-box .service-name strong {
         font-size: 32px;
     }
+    /*=====product====*/
+    .pro-box .pro-img, .event-box .event-img {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 12px;
+    }
+    .pro-box .pro-content, .event-box .event-content {
+        padding: 0;
+    }
+    .head .title-about {
+        font-size: 16px;
+    }
+    .title, .title a {
+        font-size: 26px;
+    }
 }
 @media (min-width: 481px) and (max-width: 767px)
 {
@@ -1618,22 +1638,52 @@ body .mobilep-right {
     .service-box .service-name strong {
         font-size: 32px;
     }
-
+    .button-services a {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .button-services .bottom-ser {
+        top: 35px;
+    }
+    /*====project====*/
+    .row-project .col-xs-6 {
+        width: 100%;
+    }
 }
 @media (max-width: 479px)
 { 
     .news-tb .col-xs-6 {
         width: 100%;
     }
+    .button-services a {
+        font-size: 16px;
+    }
 }
 @media (max-width: 420px)
 {
-   
+   .button-services a {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .button-services .bottom-ser {
+        top: 26px;
+    }
+    /*=====product====*/
+    .pro-box .pro-img, .event-box .event-img {
+        width: 100%;
+    }
+    .pro-box .pro-content, .event-box .event-content {
+        padding: 0;
+    }
+    
 }
 @media (max-width: 359px)
 {
-
+    .button-services a {
+        font-size: 10px;
+    }
 }
 @media (max-width: 319px)
 {
+    
 }
