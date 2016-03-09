@@ -85,8 +85,9 @@
             <a href="#">xem tất cả dịch vụ của VSPGAS <span class="fa fa-arrow-down"></span>
             </a><span class="bottom-ser"></span>
         </div>
-        <div class="row news-tblist news-tb">
-            <div class="col-md-4 col-xs-6 element-item">
+        <div class="news-tblist news-tb">
+            <div class="wrapper-bigl">
+            <%--<div class="col-md-6 col-xs-8 element-item">--%>
                 <div class="box-in">
                     <div class="wrapper-news">
                         <h4 class="news-tit">
@@ -97,7 +98,7 @@
                             <div class="author">
                                 Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
                             <a href="#" class="news-img">
-                                <img src="assets/images/news-i-1.jpg" alt="" /></a>
+                                <img class="img-responsive" src="assets/images/news-i-1.jpg" alt="" /></a>
                             <div class="desription">
                                 Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
                                 Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
@@ -114,8 +115,10 @@
                         </ul>
                     </div>
                 </div>
+            <%--</div>--%>
             </div>
-            <div class="col-md-4 col-xs-6 element-item">
+            <div class="wrapper-bigr">
+            <%--<div class="col-md-6 col-xs-6 element-item">--%>
                 <div class="box-in">
                     <div class="wrapper-news">
                         <h4 class="news-tit">
@@ -126,7 +129,7 @@
                             <div class="author">
                                 Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
                             <a href="#" class="news-img">
-                                <img src="assets/images/news-i-2.jpg" alt="" /></a>
+                                <img class="img-responsive" src="assets/images/news-i-2.jpg" alt="" /></a>
                             <div class="desription">
                                 Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
                                 Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
@@ -135,16 +138,16 @@
                                 <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
                             </div>
                         </div>
-                        <ul class="list-news">
+                        <%--<ul class="list-news">
                             <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
                                 Thỏ Trắng 02</a></li>
                             <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
                                 02 chào mừng Đại hội XII của Đảng</a></li>
-                        </ul>
+                        </ul>--%>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-xs-6 element-item">
+            <%--</div>--%>
+            <%--<div class="col-md-6 col-xs-6 element-item">--%>
                 <div class="box-in">
                     <div class="wrapper-news">
                         <h4 class="news-tit">
@@ -155,7 +158,7 @@
                             <div class="author">
                                 Tác giả:Nguyễn Huỳnh, 25/12/2015</div>
                             <a href="#" class="news-img">
-                                <img src="assets/images/news-i-3.jpg" alt="" /></a>
+                                <img class="img-responsive" src="assets/images/news-i-3.jpg" alt="" /></a>
                             <div class="desription">
                                 Sáng ngày 10/12/2015, tại trụ sở Liên doanh Việt – Nga Vietsovpetro số 105 – Lê
                                 Lợi, TP. Vũng Tàu đã diễn ra kỳ họp lần thứ 45 Hội đồng Liên doanh Việt - Nga
@@ -164,14 +167,15 @@
                                 <a href="#">Xem chi tiết <span class="fa fa-arrow-circle-o-right"></span></a>
                             </div>
                         </div>
-                        <ul class="list-news">
+                        <%--<ul class="list-news">
                             <li><a href="#"><span class="fa fa-play"></span>[Chùm ảnh] Gắn biển công trình giàn
                                 Thỏ Trắng 02</a></li>
                             <li><a href="#"><span class="fa fa-play"></span>Lễ gắn biển công trình giàn Thỏ Trắng
                                 02 chào mừng Đại hội XII của Đảng</a></li>
-                        </ul>
+                        </ul>--%>
                     </div>
                 </div>
+            <%--</div>--%>
             </div>
         </div>
     </div>

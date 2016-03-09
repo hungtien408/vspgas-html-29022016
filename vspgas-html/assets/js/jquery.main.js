@@ -130,22 +130,41 @@ function myListTb() {
         listpos: [{ cssnamepos: ".title-sui a", cssheightnum: "1"}],
         max: true
     });
-    if ($('.news-tb').size() > 0) {
-        $('.news-tb').textHeight({
-            activetit: true,
-            listcss: [{ cssname: ".news-img" }, { cssname: ".news-name" }],
-            wpointb: true,
-            //widthpont: 479,
-            desbool: true,
-            listpos: [{ cssnamepos: ".desription", cssheightnum: "3" }],
-            tbrow: true,
-            csstr: ".element-item",
-            max: true
-        }).isotope({
-            itemSelector: '.element-item',
-            layoutMode: 'fitRows'
-        });
-    }
+    $('.wrapper-bigl').textHeight({
+        activetit: true,
+        listcss: [{ cssname: ".news-box .desription"}],
+        wpointb: false,
+        widthpont: 420,
+        desbool: true,
+        listpos: [{ cssnamepos: ".news-box .desription", cssheightnum: "2"}],
+        max: true
+    });
+    $('.wrapper-bigr').textHeight({
+        activetit: true,
+        listcss: [{ cssname: ".news-box .desription"}],
+        wpointb: false,
+        widthpont: 420,
+        desbool: true,
+        listpos: [{ cssnamepos: ".news-box .desription", cssheightnum: "3"}],
+        max: true
+    });
+//    if ($('.news-tb').size() > 0) {
+//        $('.news-tb').textHeight({
+//            activetit: true,
+//            listcss: [{ cssname: ".news-img" }, { cssname: ".news-name" }],
+//            wpointb: true,
+//            //widthpont: 479,
+//            desbool: true,
+//            listpos: [{ cssnamepos: ".desription", cssheightnum: "3" }],
+//            tbrow: true,
+//            csstr: ".element-item",
+//            max: true
+//        }).isotope({
+//            itemSelector: '.element-item',
+//            layoutMode: 'fitRows'
+//        });
+//    }
+
 }
 /*=============================*/
 function mymenure() {

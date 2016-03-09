@@ -793,7 +793,7 @@ body .mobilep-right {
     overflow: hidden;
     margin-bottom: 10px;
     width: 100%;
-    background: #f5f5f5 url('../images/line-news.png') no-repeat left top;
+    background: #f5f5f5 url('../images/line-news.png') repeat-x left top;
 }
 .news-tit a {
     display: block;
@@ -848,6 +848,44 @@ body .mobilep-right {
     line-height: 50px;
     height: 50px;
     text-transform: uppercase;
+}
+.wrapper-bigl {
+    float: left;
+    width: 50%;
+}
+.wrapper-bigr {
+    overflow: hidden;
+    padding-left: 12px;
+}
+.wrapper-bigr .box-in {
+    overflow: hidden;
+}
+.wrapper-bigr .news-box .news-img, .wrapper-bigr .news-box .desription {
+    float: left;
+}
+.wrapper-bigr .news-box .news-img {
+    width: 45%;
+}
+.wrapper-bigr .news-box .desription {
+    width: 55%;
+    padding-top: 15px;
+    padding-left: 8px;
+}
+.wrapper-bigr .news-tit a {
+    font-size: 20px;
+    line-height: 45px;
+}
+.wrapper-bigr .news-name a {
+    font-size: 14px;
+    line-height: 20px;
+}
+.wrapper-bigr .more-details a {
+    height: 20px;
+    line-height: 20px;
+}
+.wrapper-bigr .news-box .author {
+    font-size: 14px;
+    line-height: 18px;
 }
 /*====about====*/
 #site
@@ -1419,6 +1457,10 @@ body .mobilep-right {
     .service-box .service-name {
         padding: 5px 0;
     }
+    /*====news====*/
+    .wrapper-bigr .news-box .desription {
+        padding-top: 20px;
+    }
 }
 @media (min-width: 993px)
 {
@@ -1476,7 +1518,27 @@ body .mobilep-right {
         filter: alpha(opacity=0); /* IE7 and lower */ 
         z-index: -1;
     }
-    
+    /*====news====*/
+    .wrapper-bigl {
+        float: none;
+        width: 100%;
+    }
+    .wrapper-bigr {
+        padding: 0;
+        width: 100%;
+    }
+    .wrapper-bigr .wrapper-news {
+        float: none;
+    }
+    .wrapper-bigr .box-in {
+        padding: 15px 0 0;
+    }
+    .wrapper-bigr .news-box .news-img {
+        width: 50%;
+    }
+    .wrapper-bigr .news-box .desription {
+        width: 50%;
+    }
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 992px)
@@ -1648,6 +1710,18 @@ body .mobilep-right {
     /*====project====*/
     .row-project .col-xs-6 {
         width: 100%;
+    }
+    /*====news====*/
+    .wrapper-bigr .news-box .news-img {
+        width: 100%;
+    }
+    .wrapper-bigr .news-box .desription {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .more-details a {
+        font-size: 14px;
     }
 }
 @media (max-width: 479px)
